@@ -5,7 +5,7 @@ Deploying ML models To the Web with Flask on AWS EC2 Instance
 https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2-instance-3b9a1cec5e13
 
 
-# First we Create instance with ubuntu AMI with t2.micro instance type with 30GB storage 
+## First we Create instance with ubuntu AMI with t2.micro instance type with 30GB storage 
 
 
     sudo apt-get update && sudo apt-get upgrade -y       (update the packages)   
