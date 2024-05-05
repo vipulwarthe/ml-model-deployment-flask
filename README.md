@@ -54,17 +54,17 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
 * setup.py is a module used to build and distribute Python packages
 * requirements.txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project
 
-    pip install -r requirements.txt 
+      pip install -r requirements.txt 
    
-    git status
+      git status
    
-    git add .
+      git add .
    
-    git status
+      git status
    
-    git commit -m "setup file added"
+      git commit -m "setup file added"
    
-    git push -u origin main
+      git push -u origin main
   
 # IMP :  if any error occured while run "git push -u origin main" command then use below command to resolve the issue:
 
