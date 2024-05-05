@@ -22,9 +22,9 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
 
     cd mlproject                                         (enter in project directory)
 
-# you can either directly clone the repo or create new repo in github and start working. so we are going to create new repo, please follow below steps:
+## you can either directly clone the repo or create new repo in github and start working. so we are going to create new repo, please follow below steps:
 
-# Login to your github account and create a new repo and paste cmds from github repo:
+## Login to your github account and create a new repo and paste cmds from github repo:
 
     echo "# Breast-Cancer-Prediction-Logistic-Regression-Project" >> README.md
    
@@ -44,11 +44,11 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
 
     git remote -v       (additional command)
 
-# Create .gitignore file with python template in mlproject repo on github
+## Create .gitignore file with python template in mlproject repo on github
 
     git pull    # It will pull the .gitignore file in VScode mlproject repo
 
-# create setup.py and requirements.txt in mlproject repo add a code in setup.py & requirements.txt
+## create setup.py and requirements.txt in mlproject repo add a code in setup.py & requirements.txt
 
 * setup.py will be responsible in creating my ML application as a package
 * setup.py is a module used to build and distribute Python packages
@@ -66,6 +66,6 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
    
       git push -u origin main
   
-# IMP :  if any error occured while run "git push -u origin main" command then use below command to resolve the issue:
+## IMP :  if any error occured while run "git push -u origin main" command then use below command to resolve the issue:
 
     git pull --rebase origin main
