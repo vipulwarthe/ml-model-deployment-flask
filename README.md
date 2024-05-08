@@ -69,3 +69,7 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
 ## IMP :  if any error occured while run "git push -u origin main" command then use below command to resolve the issue:
 
     git pull --rebase origin main
+
+## Deploy application:
+
+    python3 app.py
