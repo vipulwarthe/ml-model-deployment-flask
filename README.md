@@ -73,3 +73,9 @@ https://medium.com/shapeai/deploying-flask-application-with-ml-models-on-aws-ec2
 ## Deploy application:
 
     python3 app.py
+
+## Now your application is hosted but there is a problem you will face once you close your git bash. To solve this issue we need to use Screen. we need to run the following command on the git bash.
+
+    screen -R deploy python3 app.py
+
+    
